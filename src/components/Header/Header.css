@@ -11,11 +11,35 @@ header {
   background: rgba(255, 0, 0, 0);
 }
 
-.logo{
-  width: 150px;
-  height: 150px;
+.eyesContainer {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  box-shadow: 0 30px 70px #666;
+  will-change: transform;
+  transform: perspective(500px) rotateX(var(--yAngle, 0deg)) rotateY(var(--xAngle, 0deg));
+}
 
-  margin: 0 0 0 50px;
+.eye {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  transform: translateZ(50px) rotate(var(--eyeAngle, 0deg));
+}
 
-  background: rgba(255, 0, 0, 0);
+.pupil {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background: #000;
+  border-radius: 50%;
+  top: calc(50% - 8px);
+  left: 5px;
 }

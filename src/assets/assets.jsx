@@ -1,4 +1,4 @@
-import favicon from "./favicon.png"
+import favicon from "./favicon.ico"
 
 const logo = {
     src: favicon,
