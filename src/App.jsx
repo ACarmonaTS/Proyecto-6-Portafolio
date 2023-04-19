@@ -21,9 +21,11 @@ function App() {
             <Route path="/Technologies" element={<Technologies />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/ContactMe" element={<ContactMe />} />
+            
           </Routes>
+          <Whatsapp />
         </main>
-        <Whatsapp />
+        
       </React.Fragment>
     </BrowserRouter>
   );

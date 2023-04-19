@@ -1,4 +1,4 @@
-import { domMax, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "./Image";
 import { _whatsapp } from "../assets/assets.jsx";
 
@@ -7,7 +7,7 @@ import "./Whatsapp.css";
 function Whatsapp() {
   return (
     <>
-      <motion.section
+      <motion.a
         className="btn"
         initial={{ y: -1000 }}
         animate={{ y: -10 }}
@@ -18,7 +18,7 @@ function Whatsapp() {
         target="_blank"
       >
         <Image src={_whatsapp.src} alt={_whatsapp.alt} />
-      </motion.section>
+      </motion.a>
     </>
   );
 }
