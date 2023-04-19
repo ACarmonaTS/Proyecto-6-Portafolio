@@ -1,0 +1,6 @@
+.Technologies{
+    display: flex;
+
+    background: red;
+    z-index: 0;
+}

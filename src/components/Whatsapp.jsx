@@ -7,7 +7,7 @@ import "./Whatsapp.css";
 function Whatsapp() {
   return (
     <>
-      <motion.a
+      <motion.section
         className="btn"
         initial={{ y: -1000 }}
         animate={{ y: -10 }}
@@ -18,7 +18,7 @@ function Whatsapp() {
         target="_blank"
       >
         <Image src={_whatsapp.src} alt={_whatsapp.alt} />
-      </motion.a>
+      </motion.section>
     </>
   );
 }

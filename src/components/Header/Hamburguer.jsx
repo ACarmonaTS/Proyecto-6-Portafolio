@@ -43,9 +43,9 @@ function Hamburguer() {
         </div>
       </motion.div>
       <motion.div id="box" className="box">
-        {List.map((section) => (
-          <Option key={section} option={section} />
-        ))}
+      {List.map(( element, index ) => (
+        <Option key={index} text={element.text} href={element.href}/>
+      ))}
       </motion.div>
     </>
   );

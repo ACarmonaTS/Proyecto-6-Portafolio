@@ -1,0 +1,6 @@
+.Projects{
+    display: flex;
+    background: rgb(38, 255, 0);
+
+    z-index: 0;
+}

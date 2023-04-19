@@ -1,0 +1,6 @@
+.AboutMe{
+    display: flex;
+    background: rgb(0, 213, 255);
+
+    z-index: 0;
+}
