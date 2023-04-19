@@ -1,14 +1,21 @@
-.navbar {
-  width: 60%;
-  height: 100%;
+@media (min-width: 1200px) {
+  .navbar {
+    width: 60%;
+    height: 100%;
 
+    display: flex;
+    justify-content: end;
 
-  display: flex;
-  justify-content: end;
+    position: absolute;
+    right: 0;
+    top: 0;
 
-  position: absolute;
-  right: 0;
-  top: 0;
+    background: rgba(255, 0, 0, 0);
+  }
+}
 
-  background: rgba(255, 0, 0, 0);
+@media (max-width: 1199px) {
+  .navbar{
+    display: none;
+  }
 }

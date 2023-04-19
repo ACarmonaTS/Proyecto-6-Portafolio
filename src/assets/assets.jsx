@@ -1,8 +1,19 @@
 import favicon from "./favicon.ico"
+import menu from "./menu.png"
+import close from "./close.png"
+import whats from "./whatsapp.png"
 
-const logo = {
-    src: favicon,
-    alt: "logo"
-  };
+export const _menu = {
+  src: menu,
+  alt: "MENÚ"
+}
 
-export default logo
+export const _close = {
+  src: close,
+  alt: "CERRAR"
+}
+
+export const _whatsapp = {
+  src: whats,
+  alt: "WHATSAPP"
+}

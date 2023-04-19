@@ -1,0 +1,84 @@
+.eyes {
+  width: 140px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  top: 60px;
+  transform: translateY(-50%);
+
+  background: #ffffff00;
+}
+
+.eye {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 8px solid rgb(125, 2, 2);
+}
+
+.ball {
+  width: 35px;
+  height: 35px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.eyebrow {
+  width: 150px;
+  height: 45px;
+
+  display: flex;
+
+  position: absolute;
+  top: 0;
+  z-index: 2;
+
+  background: #ffffff00;
+}
+
+.left {
+  width: 49%;
+  height: 100%;
+
+  clip-path: polygon(0% -10%, 100% 90%, 100% 110%, 0% 10%);
+
+  position: absolute;
+  left: 0;
+
+  background: #000000;
+}
+
+.right {
+  width: 49%;
+  height: 100%;
+
+  clip-path: polygon(0% 90%, 100% -10%, 100% 10%, 0% 110%);
+
+  position: absolute;
+  right: 0;
+
+  background: #000000;
+}
+
+.beak {
+  width: 15%;
+  height: 25%;
+
+  clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+
+  position: absolute;
+  top: 75%;
+
+  background: #000000;
+}
