@@ -1,5 +1,5 @@
 export const List = [
-  { text: "About me", href: "AboutMe" },
+  { text: "About me", href: "/" },
   { text: "Technologies", href: "Technologies" },
   { text: "Projects", href: "Projects" },
   { text: "Contact me", href: "ContactMe" },

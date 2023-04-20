@@ -1,6 +1,66 @@
-.AboutMe{
-    display: flex;
-    background: rgb(0, 213, 255);
+.AboutMe {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 2px 4px #aba5a5;
+  z-index: 0;
+}
 
-    z-index: 0;
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  background: radial-gradient(#a1eaf488, #009696a2);
+}
+
+.waves {
+  bottom: 0px;
+  background: rgb(193, 215, 218);
+  position: absolute;
+  width: 100%;
+  height: 7%;
+  border-radius: 50%;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.waveOne {
+  animation-direction: alternate-reverse;
+  background: #559b0070;
+  border-radius: 22% 100% 30% 0px / 0% 88% 0px 0px;
+}
+
+.waveTwo {
+  background: #01634370;
+  border-radius: 100% 22% 0% 0px / 88% 0px 0px 0px;
+}
+
+@keyframes move {
+  from {
+    border-radius: 100% 22% 0% 0px / 88% 0px 0px 0px;
+  }
+  to {
+    border-radius: 22% 100% 30% 0px / 0% 88% 0px 0px;
+  }
+}
+
+.section{
+  width: 100%;
+  height: 99vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: rgba(255, 0, 0, 0)(0, 0, 0);
+
+  z-index: 1;
 }

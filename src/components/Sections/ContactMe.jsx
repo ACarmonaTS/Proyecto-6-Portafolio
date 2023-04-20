@@ -13,7 +13,11 @@ function ContactMe() {
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-
+        <div className="ContactMe">
+          <span className="wavesC waveOneC"></span>
+          <span className="wavesC waveTwoC"></span>
+          <span className="backgroundC"></span>
+        </div>
       </motion.section>
     </React.Fragment>
   );

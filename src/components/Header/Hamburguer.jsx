@@ -42,7 +42,7 @@ function Hamburguer() {
           <Image src={_close.src} alt={_close.alt} />
         </div>
       </motion.div>
-      <motion.div id="box" className="box">
+      <motion.div id="box" className="box" onClick={ invisible }>
       {List.map(( element, index ) => (
         <Option key={index} text={element.text} href={element.href}/>
       ))}

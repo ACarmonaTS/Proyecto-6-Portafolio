@@ -1,6 +1,47 @@
-.ContactMe{
-    display: flex;
-    background: rgb(242, 255, 0);
+.ContactMe {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 2px 4px #aba5a5;
+  z-index: 0;
+}
 
-    z-index: 0;
+.backgroundC {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  background: radial-gradient(#ca929288, #7c0505a2);
+}
+
+.wavesC {
+  bottom: 0px;
+  background: rgb(193, 215, 218);
+  position: absolute;
+  width: 100%;
+  height: 7%;
+  border-radius: 50%;
+  animation-name: move;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.waveOneC {
+  animation-direction: alternate-reverse;
+  background: #fe0000a9;
+  border-radius: 22% 100% 30% 0px / 0% 88% 0px 0px;
+}
+.waveTwoC {
+  background: #8c0404a1;
+  border-radius: 100% 22% 0% 0px / 88% 0px 0px 0px;
+}
+
+@keyframes move {
+  from {
+    border-radius: 100% 22% 0% 0px / 88% 0px 0px 0px;
+  }
+  to {
+    border-radius: 22% 100% 30% 0px / 0% 88% 0px 0px;
+  }
 }
