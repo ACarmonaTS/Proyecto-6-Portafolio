@@ -1,27 +1,25 @@
 export const right = {
+  display: "none",
   alignSelf: "center",
   background: "black",
   border: "none",
   borderRadius: "50%",
   color: "white",
   cursor: "pointer",
-  fontSize: "20px",
-  height: 30,
+  height: 50,
   lineHeight: 1,
-  textAlign: "center",
-  width: 30,
+  width: 50,
 };
 
 export const left = {
+  display: "none",
   alignSelf: "center",
   background: "black",
   border: "none",
   borderRadius: "50%",
   color: "white",
   cursor: "pointer",
-  fontSize: "20px",
-  height: 30,
+  height: 50,
   lineHeight: 1,
-  textAlign: "center",
-  width: 30,
+  width: 50,
 };

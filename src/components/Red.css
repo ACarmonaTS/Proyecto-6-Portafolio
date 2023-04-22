@@ -1,0 +1,31 @@
+@media (min-width: 1200px) {
+  .btnG {
+    width: 40px;
+    height: 40px;
+
+    margin: 5px 0;
+
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.274);
+    padding: 8px;
+
+    background: transparent;
+
+    z-index: 6;
+  }
+}
+
+@media (max-width: 1199px) {
+  .btnG {
+    width: 35px;
+    height: 35px;
+
+    margin: 5px 0;
+
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.274);
+    padding: 8px;
+
+    z-index: 6;
+  }
+}

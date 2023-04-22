@@ -47,3 +47,89 @@
     border-radius: 22% 100% 30% 0px / 0% 88% 0px 0px;
   }
 }
+
+.projectsBox{
+  width: 100rem;
+  height: 52rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 10%;
+  right: 12%;
+
+  border-radius: 5%;
+
+  background: rgba(0, 0, 0, 0.571);
+
+  z-index: 2;
+}
+
+.v{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imaV{
+  margin: 0 600px 20px 0px;
+  width: 40px;
+  height: 300px;
+
+  background: red;
+}
+
+.bms{
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.boxP{
+  width: 90%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ima{
+  width: 30rem;
+}
+
+.desc{
+  width: 40rem;
+  margin-left: 70px;
+}
+
+.t{
+  font-size: 30px;
+  margin: 10px;
+}
+
+.p{
+  font-size: 20px;
+}
+
+.dow{
+  width: 8rem;
+  height: 3rem;
+  font-size: 20px;
+  margin: 20px;
+  position: absolute;
+  left: 65%;
+  font-weight: bolder;
+  background: linear-gradient(rgb(25, 24, 24), rgb(151, 28, 3));
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

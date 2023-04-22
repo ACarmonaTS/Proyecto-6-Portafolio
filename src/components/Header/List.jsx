@@ -1,7 +1,6 @@
-export const List = [
-  { text: "About me", href: "/" },
-  { text: "Technologies", href: "Technologies" },
-  { text: "Projects", href: "Projects" },
-  { text: "Contact me", href: "ContactMe" },
+const Lista = [
+  { text: "Sobre mi", href: "/" },
+  { text: "Proyectos", href: "Projects" },
 ];
-export const Lista = ["Sobre mi", "Tecnologías", "Proyectos", "Contáctame"];
+
+export default Lista

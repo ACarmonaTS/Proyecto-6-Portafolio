@@ -60,7 +60,50 @@
   top: 0;
   left: 0;
 
-  background: rgba(255, 0, 0, 0)(0, 0, 0);
+  background: rgb(181, 25, 25)(0, 0, 0);
 
   z-index: 1;
+}
+
+.carousel{
+  width: 70%;
+  height: 42rem;
+
+  display: flex;
+  flex-direction: row;
+
+  background: rgba(6, 6, 6, 0);
+}
+
+.data{
+  width: 40rem;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  width: 100%;
+  margin-left: 20px;
+  font-size: 60px;
+  text-align: left;
+  color: rgb(96, 28, 27);
+}
+
+.prof{
+  width: 100%;
+  margin-bottom: 50px;
+  font-size: 35px;
+  text-align: center;
+
+  color: rgb(81, 85, 13);
+}
+
+.techLimit{
+  width: 35rem;
+
+  background: rgba(240, 255, 255, 0);
 }

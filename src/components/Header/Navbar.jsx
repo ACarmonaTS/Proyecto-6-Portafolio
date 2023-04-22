@@ -1,4 +1,4 @@
-import { List } from "./List";
+import Lista from "./List";
 import Option from "./Option";
 
 import "./Navbar.css";
@@ -6,7 +6,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      {List.map(( element, index ) => (
+      {Lista.map(( element, index ) => (
         <Option key={index} text={element.text} href={element.href}/>
       ))}
     </div>

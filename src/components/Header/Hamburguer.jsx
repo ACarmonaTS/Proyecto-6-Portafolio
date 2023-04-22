@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { _menu, _close } from "../../assets/assets.jsx";
 import Image from "../Image.jsx";
-import { List } from "./List";
+import Lista from "./List";
 import Option from "./Option";
 
 import "./Hamburguer.css";
@@ -43,7 +43,7 @@ function Hamburguer() {
         </div>
       </motion.div>
       <motion.div id="box" className="box" onClick={ invisible }>
-      {List.map(( element, index ) => (
+      {Lista.map(( element, index ) => (
         <Option key={index} text={element.text} href={element.href}/>
       ))}
       </motion.div>
