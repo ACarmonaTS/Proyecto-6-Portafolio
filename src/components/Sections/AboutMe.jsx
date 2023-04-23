@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Carousel from "../Carousel";
 import Image from "../Image";
 import { _tech } from "../../assets/assets";
+import Card from "../Included/Card";
+import info from "../Included/info";
 
 import "./AboutMe.css";
 
@@ -14,22 +15,36 @@ function AboutMe() {
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="AboutMe">
-          <div className="section">
-            <div className="carousel">
-              <div className="data">
-                <h1 className="name">Alejandro Carmona</h1>
-                <h3 className="prof">Desarrollador de software | IoT</h3>
-                <div className="techLimit">
-                  <Image src={_tech.src} alt={_tech.alt}/>
-                </div>
+        <div className="aboutMe">
+          <div className="aboutContent">
+            <div className="presentation">
+              <div className="name">
+                Alejandro Carmona
+                <div className="job">Desarrollador de software</div>
               </div>
-              <Carousel />
+              <div className="tech">
+                <Image src={_tech.src} alt={_tech.alt} />
+              </div>
+            </div>
+            <div className="description">
+              {info.map((element, index) => (
+                <Card
+                  key={index}
+                  title={element.title}
+                  text={element.description}
+                />
+              ))}
+            </div>
+            <div className="descriptionTwo">
+              {info.map((element, index) => (
+                <Card
+                  key={index}
+                  title={element.title}
+                  text={element.description}
+                />
+              ))}
             </div>
           </div>
-          <span className="waves waveOne"></span>
-          <span className="waves waveTwo"></span>
-          <span className="background"></span>
         </div>
       </motion.section>
     </React.Fragment>

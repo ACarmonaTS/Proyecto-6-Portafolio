@@ -1,11 +1,11 @@
 @media (min-width: 1200px) {
   .btn {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 8px;
+    right: 15px;
 
     border-radius: 50%;
     border: 5px solid rgba(48, 255, 2, 0.274);
@@ -23,8 +23,8 @@
     height: 35px;
 
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 0px;
+    right: 10px;
 
     border-radius: 50%;
     border: 5px solid rgba(48, 255, 2, 0.274);

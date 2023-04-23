@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import Image from "./Image";
 
-import "./Red.css";
+import "./SocialMedia.css";
 
-function Red({logo, href}) {
+function SocialMedia({logo, href}) {
   return (
     <>
       <motion.a
@@ -22,4 +22,4 @@ function Red({logo, href}) {
   );
 }
 
-export default Red;
+export default SocialMedia;
