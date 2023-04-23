@@ -27,3 +27,11 @@ Por ello, en este último proyecto, invertiremos tiempo y esfuerzo a consolidar 
 
 # 3. Presentación
 
+Sección 1:
+
+![sec1](https://user-images.githubusercontent.com/113727513/233818921-78f94e6c-c58a-4937-a29c-892b3c0449b7.png)
+
+Sección 2:
+
+![sec2](https://user-images.githubusercontent.com/113727513/233818931-77f20a08-e6b3-4c96-a15e-44105d1dde86.png)
+
